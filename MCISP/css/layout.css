@@ -1,0 +1,1328 @@
+#Header
+{
+margin:0px auto;
+padding:0px;
+ width:998px;
+height:108px;
+position:relative;
+}
+
+
+/*****************************nav**************************************/
+#Nav {
+	font-size:16px;
+    margin:0 auto;
+	padding:0px ;
+	height:45px;
+	color:#FFF;
+	font-weight:bold;
+	line-height:45px;
+	text-align:center;
+	width:998px;
+}
+
+#Nav a:active, #Nav a:link, #Nav a:visited{
+    color: #FFF;
+    text-decoration:none;
+}
+
+#Nav a:hover{
+    color: #000; 
+    text-decoration:none;
+}
+
+/**************************nav*************************/
+#Nav  span{
+margin:0px;
+}
+
+#Nav .NavShow{
+	padding:10px 12px 10px 17px;
+	background:url(../public/images/nav-spe.jpg) no-repeat left;
+}
+#Nav .NavSel{
+	padding:10px 12px 10px 17px;
+	background:#0C6837;
+}
+
+#SubNav{
+	font-size:14px;
+	font-weight:bold;
+	margin:0 auto;
+	width:998px;
+	text-align:left;
+	color:#000;
+	height:41px;
+	line-height:40px;
+}
+#SubNav a:active, #SubNav a:link, #SubNav a:visited{
+    color: #000;
+    text-decoration:none;
+}
+#SubNav a:hover{
+    color: #FFFFFF; 
+    text-decoration:none;
+	background:#489567;
+}
+
+#SubNav2{
+	margin-left:100px;
+}
+#SubNav3{
+	margin-left:200px;
+}
+#SubNav4{
+	margin-left:260px;
+}
+#SubNav5{
+	margin-left:400px;
+}
+#SubNav6{
+	margin-left:500px;
+}
+#SubNav7{
+	margin-left:600px;
+}
+#SubNav8{
+	margin-left:655px;
+}
+
+/*****************************Main**************************************/
+#Main
+{
+	margin:0px auto;
+	padding:5px;
+	width:1008px;
+}
+
+/*****************************Main-Up**************************************/
+#Up
+{
+	padding:5px;
+	width:998px;
+	height:410px;
+}
+
+/*****************************Main-Up-News**************************************/
+#News
+{	
+	Padding:0px 5px 0px 5px;
+	width:400px;
+	height:400px;
+	float:left;
+	position:relative; 
+	margin-left:0px;
+	display:inline-block;
+	background:url(../public/images/News.png) no-repeat ;  
+	border:1px #CCCCCC solid;
+	line-height:180%;
+	font-size:15px;
+}
+
+#News .Item
+{
+	width:395px;	
+	height:28px;
+}
+
+#News a
+{
+	float:left;
+	display:inline-block;
+	width:300px;
+ 	overflow: hidden; 
+	white-space: nowrap;   
+  -o-text-overflow:ellipsis; 
+   text-overflow:ellipsis; 
+   vertical-align:middle; 
+}
+
+
+#News .Campus
+{
+	color:gray;
+	font-size:13px;
+}
+
+#News .PubTime
+{
+	float:right;
+	width:75px;
+ 	margin:0px 0px 0px 0px; 
+	color:#7F7F7F;
+	vertical-align:middle;
+	font-size:14px;
+}
+
+/*****************************Main-Up-Pics**************************************/
+#Pics
+{
+	width:580px;
+	height:400px;
+	float:right; 
+	position:relative; 
+	margin-right:0px;
+	display:inline-block; 
+	border:1px #CCCCCC solid;  
+} 
+
+/*****************************Main-Down**************************************/
+#Down
+{
+	padding:5px;
+	width:998px;
+	height:310px;
+}
+
+/*****************************Main-Down-Notice**************************************/
+#Notice
+{
+	padding:40px 5px 0px 5px;
+	width:300px;
+	height:270px;
+	float:left;
+	position:relative; 
+	margin-left:0px;
+	display:inline-block;
+	background:url(../public/images/Notice.png) no-repeat ; 
+	border:1px #CCCCCC solid;
+}
+
+
+#Calender
+{
+	width:120px;
+	height:100px;
+	position:relative; 
+	margin-left:20px;
+ 	display:inline; 
+	border:none;
+}
+
+
+
+#BBS
+{
+	width:120px;
+	height:100px;
+	position:relative; 
+	margin-left:15px;
+	display:inline;
+	border:none;
+}
+
+#BoJi
+{
+	width:240px;
+	height:80px;
+	margin:8px 30px;
+	position:relative; 
+	display:block;
+	border:none;
+}
+
+#Yxdjt
+{
+	width:240px;
+	height:80px;
+	margin:8px 30px;
+	position:relative; 
+	display:block;
+	border:none;
+}
+
+/*****************************Main-Down-Serviecs**************************************/
+#Services
+{
+	Padding:10px 5px 0px 5px;
+	width:350px;
+	height:300px;
+	float:left;
+	position:relative; 
+	margin-left:5px;
+	display:inline-block;
+	background:url(../public/images/Services.png) no-repeat ; 
+	border:1px #CCCCCC solid;
+}
+
+#Services .Item
+{
+	width:340px;	
+	height:28px;
+}
+
+#Services a
+{
+	float:left;
+	display:inline-block;
+	width:265px;
+ 	overflow: hidden; 
+	white-space: nowrap;   
+  -o-text-overflow:ellipsis; 
+   text-overflow:ellipsis; 
+   vertical-align:middle; 
+}
+
+
+#Services .Campus
+{
+	color:gray;
+	font-size:13px;
+}
+
+#Services .PubTime
+{
+	float:right;
+	width:75px;
+ 	margin:0px 0px 0px 0px; 
+	color:#7F7F7F;
+	vertical-align:middle;
+	font-size:14px;
+}
+
+
+/*****************************Main-Down-Contact**************************************/
+#Contact
+{
+	padding:40px 5px 0px 5px;
+	width:300px;
+	height:270px;
+	float:right;
+	position:relative; 
+	margin-right:0px;
+	display:inline-block;
+	background:url(../public/images/Contact.png) no-repeat ; 
+	border:1px #CCCCCC solid;
+}
+
+
+#Contact span
+{
+    font-weight:bold;
+    margin-left:10px;
+}
+
+#colee
+{
+    overflow:hidden;
+    height:270px;
+    line-height:20px;
+	font-size:14px;
+	color:black;
+}
+
+/*****************************  多媒体风采   **************************************/
+#MmIntroMain
+{
+	width:1020px;
+	margin:auto auto;
+}
+
+#about
+{
+    width:1000px;
+    min-height:600px;
+}
+
+.about_us
+{
+    float:left;
+    width:250px;
+    padding:20px;
+}
+
+.PicSlide
+{
+	width:680px; 
+	height:430px;
+	float:left;
+}
+
+.about_content
+{
+    margin:10px 10px 10px 10px;
+    width:990px;
+    padding:5px 5px 5px 5px;
+    -moz-box-shadow:inset 4px 4px 34px #969696;
+    -webkit-box-shadow:inset 4px 4px 34px #969696;
+    box-shadow:inset 4px 4px 34px #969696;
+    border-bottom:inset 1px #969696;
+    border-right:inset 1px #969696;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display:inline-block;
+	background-image:url("../images/mmintro/bg.jpg");
+	background-repeat:no-repeat;
+}
+/*****************************  课室介绍   **************************************/
+#CrIntroMain
+{
+	width:998px;
+	margin:auto auto;
+}
+
+#REast
+{
+	height:680px;
+	padding:20px 0px;
+}
+
+#East_a,#East_b,#East_c
+{
+	width:300px;
+	margin:20px 20px 40px 10px;
+	float:left;
+	text-align:center;
+}
+
+#East_d,#East_e
+{
+	width:300px;
+	margin:20px 20px 40px 120px;
+	float:left;
+	text-align:center;
+}
+
+#RSouth
+{
+	height:650px;
+	padding:20px 50px;
+}
+
+#South_1
+{
+	width:280px;
+	margin:20px 120px 40px 60px;
+	float:left;
+	text-align:center;
+}
+
+#South_2
+{
+	width:400px;
+	margin:20px 20px 20px 10px;
+	float:left;
+	text-align:center;
+}
+
+#South_3 , #South_4
+{
+	width:650px;
+	margin:0px 120px 40px 130px;
+	float:left;
+	text-align:center;
+}
+
+#RNorth
+{
+	height:500px;
+	padding:20px 0px;
+}
+
+#North_1
+{
+	width:450px;
+	margin:20px 20px 20px 10px;
+	float:left;
+	text-align:center;
+}
+
+#North_2
+{
+	width:490px;
+	margin:20px 0px 20px 20px;
+	float:left;
+	text-align:center;
+}
+
+#RZhuHai
+{
+
+	height:900px;
+	padding:20px 50px;
+}
+
+#ZhuHaiLeft
+{
+	width:400px;
+	float:left;
+}
+
+#ZhuHaiRight
+{
+	width:400px;
+	float:right;
+}
+
+#ZhuHai_b,#ZhuHai_d
+{
+	width:300px;
+	margin:20px 20px 20px 80px;
+	float:left;
+	text-align:center;
+
+}
+
+
+#ZhuHai_c,#ZhuHai_e,#ZhuHai_f
+{
+	width:300px;
+	margin:20px 20px 20px 30px;
+	float:left;
+	text-align:center;
+}
+
+table.spe2
+{
+	border-collapse:collapse;
+}
+
+table.spe2 td
+{
+	width:60px;
+	border:dashed rgb(23, 136, 0);
+	border-width:1px 0px 1px 0px;
+}
+
+/*****************************  教室详情  **************************************/
+#ClassMain
+{
+	line-height:150%;
+	width:998px;
+	margin:auto auto;
+}
+
+#ClassUp
+{
+	width:950px;
+	height:400px; 
+	padding:20px 0px;
+}
+
+#ClassDown
+{
+	width:880px; 
+	text-align:left;
+}
+
+#classroomPic
+{
+	border-style:solid;
+	border-width:5px;
+	border-color:rgb(192,192,192);
+	border-radius:10px;
+	float: right;
+	width: 500px;
+	height:370px;
+}
+
+/*****************************  服务指南   **************************************/
+#ServiceMain
+{
+	width:1010px;
+	height:950px;
+	margin:auto auto;
+}
+
+#ServiceMain div.MapText
+{
+	text-align:center;
+	font-size:18px;
+	color:#000000;
+	font-weight:bold;
+}
+
+#BusTable td
+{
+	padding:0px 2px;
+}
+
+#BusTable tr:nth-of-type(even)
+{
+	background:#DFE7F2;
+}
+
+#BusLeft
+{
+	width:200px;
+	height:600px;
+	float:left;
+}
+
+#BusL1
+{
+	height:200px;
+	border:2px dotted #CCCCCC;
+	color:#000000;
+	padding:0px 0px 0px 3px;
+	margin:10px 0px;
+}
+
+#BusL2
+{
+	height:170px;	
+	color:#000000;
+	padding:0px 0px 0px 4px;
+	border:2px dotted #CCCCCC;
+	margin:10px 0px;
+}
+
+#BusL3
+{
+	height:170px;	
+	color:#000000;
+	padding:0px 4px 0px 8px;
+	border:2px dotted #CCCCCC;
+}
+
+
+#BusRight
+{
+	width:800px;
+	float:right;
+}
+
+#BusSrc
+{
+	width:96px;
+	height:100px;
+	display:inline-block;
+	float:left;
+}
+
+#BusDes
+{
+	width:96px;
+	height:100px;
+	display:inline-block;
+	float:left;
+	
+}
+
+/*****************************信息公告布局**************************************/
+#infoIndexMain
+{
+	width:998px;
+	margin:auto auto;
+	height:600px;
+}
+
+#infoIndexLeft
+{
+	width:19%;
+	height:450px;
+	display:inline-block;
+	float:left;
+}
+
+#infoIndexRight
+{
+	width:80%;
+	height:600px;
+	display:inline-block;
+	float:right;
+}
+
+#InfoLeftMenu
+{
+	margin:0px 0px 0px 10px;
+}
+
+#InfoLeftMenu li
+{
+	margin-bottom:2px; 
+    float: left; 
+    clear: left;  
+}
+
+#InfoLeftMenu  li a 
+{ 
+    display: block; 
+    width: 120px; 
+    height: 20px; 
+    position: relative; 
+    padding: 5px 6px;
+    border: 2px solid #d6d6d6; 
+	background:#489567; 
+    color:#000000; 
+	font-size:16px;
+}
+/*****************************  规范制度   **************************************/
+#RuleMain
+{
+	width:998px;
+	margin:auto auto;
+}
+
+.RuleItem
+{
+	margin:auto auto;
+	width:850px;
+	height:160px;
+	border: 2px dashed #d6d6d6; 
+	border-width:0px 0px 2px 0px;
+}
+
+.RuleTitle
+{
+	margin:10px 0px 0px 0px;
+	font-size:21px;
+	font-weight:bold;
+}
+
+.RuleText
+{
+	margin:10px 0px 0px 0px;
+	color:#000000;
+	width:850px;
+	height:140px;
+	text-indent:2em;
+	line-height:150%;
+	font-size:15px;
+	word-break:break-all;
+}
+
+/***************			失物招领					*********************/
+#LostFoundMain
+{
+	margin:auto auto;
+	width:998px;
+}
+
+#loading{
+	text-align:center;
+}
+
+#LostFoundList{
+	text-align:center;
+}
+
+/*****************************特色系统**************************************/
+
+#plmxs
+{
+	margin:auto auto;
+	width:998px;
+	height:1800px;
+}
+
+#plmxs #image
+{
+    float:right;
+    width:38%;
+    height: 320px;
+    margin-right:20px;
+	margin-top:20px;
+	display:block;
+}
+
+#plmxs #text-left
+{
+	width:58%;
+	float:left;
+	height:320px;
+	display:block;
+}
+
+#text-left p
+{
+	text-indent:2em;
+	line-height:150%;
+}
+
+#text-left li
+{
+	text-indent:2em;
+	line-height:150%;
+}
+#putable 
+{
+	margin:30px 0px 0px 150px;
+	border:none;
+	background:none;
+}
+
+#putable td
+{
+	border:none;
+	background:none;
+}
+
+#putable tr{
+	border-top: 2px solid #000000; 
+	border-bottom: 2px solid #000000; 
+	background:none;
+}
+
+#zy
+{
+	margin:auto auto;
+	width:808px;
+	height:1100px;
+}
+
+#zy p,#zy li
+{
+	text-indent:2em;
+}
+
+/*****************************分页布局， 可能作为类选择符，暂时为ID**************************************/
+/*     ID在页面内是唯一的，ID的页面唯一性，一个页面内最多有一个分页     */
+#any{
+	width:30px;
+}
+
+#artInfoList
+{
+	margin:10px 0px 0px 10px;
+}
+
+#artInfoList td
+{
+	padding:0px 10px;
+}
+
+#page
+{
+	margin:10px 0px 20px 50px;
+	color:#000000;
+}
+
+/*****************************后台界面布局**************************************/
+/*****************************管理员后台界面**************************************/
+
+
+#navbtn {
+    height: 450px;
+    width: 840px;
+    margin: auto auto;
+}
+
+#navbtn  li{
+    width: 140px;
+    height: 160px;
+	margin:30px 20px 20px 0px;
+	border:1px #CCCCCC solid;
+	text-align:center;
+	display:block;
+	float:left;
+}
+
+#navbtn  li  div {
+    width: 140px;
+    height: 160px;
+    overflow: hidden;
+    background: white;
+}
+
+#navbtn li div.back {
+    background: #005825;
+}
+
+#navbtn li div.back  a
+{
+	display:inline-block;
+	margin:37px auto;
+	font-size:16px;
+	font-weight:bold;
+	line-height:150%;
+}
+
+#navbtn li div.back  a:active, #navbtn li div.back  a:link, #navbtn li div.back  a:visited
+{
+	color:#FFFFFF;	
+}
+
+#navbtn li div.back a:hover
+{
+	color:#000000;
+}
+
+/*****************************  后台修改联系方式页面  **************************************/
+
+#ConWayMain{
+	width:700px;
+	height:420px;
+	margin:auto auto;
+}
+
+#ConWay{
+	text-align:center;
+}
+
+
+
+/*****************************文章管理后台界面**************************************/
+#ArticleMain
+{
+	width:998px;
+	display:block;
+	margin:0px auto;
+}
+
+
+#ArticleLeft
+{
+	width:19%;
+	height:400px;
+	display:inline-block;
+	position:relative;
+	vertical-align:top;
+	text-align:center;
+}
+
+
+#LeftHead
+{
+	font-size:16px;
+	font-weight:bold;
+	height:30px;
+	width:180px;
+	color:#FFFFFF;
+	margin:10px auto;
+	padding:10px 0px 0px 0px;
+	display:block;
+	background:#005825;
+	border:2px #CCCCCC solid;
+}
+
+#ManageBtn{
+    height: 350px;
+    width: 180px;
+    margin: auto auto;
+	text-align:center;
+}
+
+#ManageBtn  li {
+    width: 160px;
+    height: 80px;
+	margin:24px auto;
+    position: relative;
+	color:#000000;
+	border:2px #CCCCCC solid;
+}
+
+#ManageBtn  li  div {
+    width: 160px;
+    height: 80px;
+    overflow: hidden;
+    background: #287547;
+	color:#FFFFFF;
+    position: absolute;	
+}
+#ManageBtn  li  div.front a
+{
+	margin:25px auto;
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+}
+
+
+#ManageBtn  li  div.back {
+    background: #005825;
+	margin:0px 0px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:150%;
+	margin:0px 0px;
+	display:block;
+	cursor:pointer;
+}
+
+
+#ManageBtn  li  div.back  p
+{
+	margin:10px 0px;
+	display:block;	
+	vertical-align:middle;
+}
+
+#ManageBtn  li  div.back  a:active, #ManageBtn  li  div.back  a:link, #ManageBtn  li  div.back a:visited
+{	
+	color:#FFFFFF;
+}
+
+#ManageBtn  li  div.back  a:hover
+{
+	color:#000000;
+}
+
+/*
+
+*/
+
+
+#ArticleRight
+{
+	width:80%;
+	border:1px #CCCCCC solid;
+	display:inline-block;	
+	
+}
+
+/*****************************用户管理后台**************************************/
+#userManaMain
+{
+	width:1020px;
+	margin:auto auto;
+}
+#userConAdd{
+	height:140px;
+}
+
+
+#userAddDiv
+{
+ 	margin:3px auto;   
+	width:690px;
+	height:130px;
+	display:inline-block;
+	float:right;
+	color:#000000;
+}
+
+#userAddFrom
+{
+	margin-left:3px;
+}
+
+#selectCon 
+{
+ 	margin:3px auto;  
+	width:330px;
+	height:110px;
+    display:inline-block;
+	float:left;
+	color:#000000;
+}
+
+#selectCon  div
+{
+	 margin-left:3px; 
+}
+
+#userListDiv
+{
+	width:1000px;
+	margin:0px 0px;
+	text-align:center; 
+}
+
+#userList
+{
+	width:1000px;
+	padding:0px 0px;
+}
+
+/*****************************助理后台管理**************************************/
+#AssistMain
+{
+	width:1000px;
+	margin:auto auto;
+}
+
+#LeftNavi
+{
+	width:20%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#RightPart
+{
+	width:75%;
+	display:inline-block;
+}
+
+
+
+#AsstInfo
+{
+	width:500px;
+	height:180px;
+	display:inline-block;
+	float:right;
+}
+
+#AsstSelCon
+{
+	border:solid #CCCCCC;
+	border-width:2px 0px 2px 0px;
+}
+
+#AsstSelCon  div.divAI
+{
+	margin-left:30px;
+
+}
+
+#AssistList
+{
+	width:650px;
+}
+
+.AssistLeftNav
+{
+	width:100px;
+	height:40px;
+	margin:auto 30px;
+}
+
+
+.AssistLeftNav a
+{
+	display: block; 
+    width: 120px; 
+    height: 20px; 
+    position: relative; 
+    padding: 5px 6px;
+    border: 2px solid #d6d6d6; 
+	background:#489567; 
+    color:#000000; 
+	font-size:16px;
+	text-align:center;
+}
+
+.ImgBox
+{
+	width:130px;
+	height:180px;
+	display:inline-block;
+	float:left;
+	margin:5px 10px;
+}
+
+.divAI
+{
+	margin:5px 0px 2px 0px;
+}
+
+.Model{
+	height:200px;
+	width:650px;
+	border:solid #CCCCCC;
+	border-width:1px 0px 1px 0px;
+	display:block;
+	color: #005825;
+}
+
+.Model .ModelRight
+{
+	float:right;
+	width:500px;
+}
+
+.Model  span{
+color:#000000;
+}
+
+
+/*设置它的透明度为0，即完全透明。这个语句，对付除IE以外的浏览器*/
+/*设置它的透明度为0，即完全透明。这个语句，对付IE浏览器。*/
+
+input[type='file'] {
+ width:100px;
+ height:24px;
+  border:2px solid #00FF00;
+  visibility:hidden;
+ opacity:0;                        
+ filter:alpha(opacity=0);    
+}
+ 
+
+#assistPage
+{
+	margin:10px 20px;
+}
+
+#AnyPage{
+	width:30px;
+}
+
+/******					失物招领管理后台							********/
+
+
+
+#LostMain{
+	width:820px;
+	margin:auto auto;
+
+}
+
+#AddLost{
+	margin:3px 0px;  
+	border:#CCCCCC dotted;
+	border-width:2px 0px 2px 0px;
+	width:800px;
+	height:150px;
+	color:#000000;
+}
+
+#LostSerCon{
+	margin:2px 0px;  
+	border:#CCCCCC dotted;
+	border-width:0px 0px 2px 0px;
+	width:800px;
+	height:80px;
+	color:#000000;
+}
+
+#LostSerConFrom{
+	margin:1px 0px 3px 30px;
+}
+
+#LostList{
+	padding:0px 0px 0px 30px;
+}
+
+.LostItem{
+	width:760px;
+	border-width:0px 0px 2px 0px;
+	padding:5px 0px;
+	border-style:dashed;
+	border-color:#CCCCCC;
+	color:#666666;
+}
+
+.textsty1
+{
+	width:400px;
+	height:50px;
+	font-size:13px;
+	resize: none;
+	float:left; 
+}
+
+.textspan{
+	width:400px;
+	height:50px;
+	font-size:13px;
+	float:left; 
+	border:1px dotted #CCCCCC;
+	color:#000000;
+}
+
+
+.CliamInfo{
+	width:730px;
+	border-width:2px 0px 0px 0px;
+	border-style:dotted;
+	border-color:#CCCCCC;
+	padding:5px 0px;
+	display:none;
+}
+
+
+
+span.infospan
+{
+	display:inline-block;
+	color:#000000;
+}
+
+span.btnspan
+{
+	margin:20px 0px 0px 40px;
+	float:left;
+	display:block;
+}
+
+
+a.asty1{	
+    background-color:#dff4ff;
+	border:1px solid #dedede;
+    font-weight:bold;
+	padding:5px 10px 6px 7px;
+	color:#000000;
+	margin:0px 3px 0px 3px;
+}
+
+a.asty1:hover
+{
+	background-color:#008050;
+    color:#FFFFFF;
+	font-weight:normal;
+}
+
+a.asty1 img{
+    margin:0 3px -3px 0;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+
+a.asty2{	
+    background-color:#dff4ff;
+	border:1px solid #dedede;
+    font-weight:bold;
+	font-size:13px;
+	padding:4px 5px;
+	color:#000000;
+	margin:0px 4px 0px 3px;
+}
+
+a.asty2:hover
+{
+	background-color:#008050;
+    color:#FFFFFF;
+	font-weight:normal;
+}
+
+/*****************************bottom**************************************/
+#Bottom
+{
+	display:block;
+    vertical-align:bottom; 
+	position:relative;
+	bottom:0px;
+}
+
+#Foot
+{
+	display:block;
+	height:200px;
+	/*  vertical-align:bottom; */
+	position:relative;
+	margin:0px auto;
+	text-align:center; 
+	/* display:inherit; */
+}
+
+/*****************************返回到顶部的锚**************************************/
+#BackToTop
+{
+    background:#005825 none repeat scroll 0 0;
+    border:2px solid #43CD80;
+    bottom:2px;
+    padding:1px;
+    position:fixed;
+    right:25px;
+    width:80px; 
+    font-size:12px;
+	font-weight:bold;
+    float:right;
+    _position:absolute;
+    _bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+#BackToTop a:active, #BackToTop a:link, #BackToTop a:visited
+{
+
+    display:block;
+    color:#FFFFFF;
+    padding:2px 4px 2px 4px;
+    text-align:center;
+    text-decoration:none;
+}
+
+#BackToTop a:hover
+{
+    background:#AAA;
+    color:#000;
+    text-decoration:none;
+}

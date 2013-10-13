@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #016aa9;
+	overflow:hidden;
+}
+
+#sub {
+	top:290px;
+ 	position: absolute;
+        width: 100%;
+}
+.STYLE1 {
+	color: #000000;
+	font-size: 12px;
+}
+	.errorMsg {
+		font-size:12px;
+		color:red;
+		position: absolute;
+		width:100px;
+	}
+	#usrError {
+		top:243px;
+	}
+	#pwError {
+		top:267px;
+	}
+    .style1
+    {
+        width: 392px;
+    }
+    .style2
+    {
+        width: 64px;
+        font-size: small;
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+    .style3
+    {
+        width: 143px;
+    }
+-->

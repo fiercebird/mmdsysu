@@ -1,0 +1,327 @@
+body{
+	font-family: Arial,sans-serif;
+	color: #005825;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	/* background-color:#49AAD7; */
+	background:#FFFFFF url(../public/images/bodybg1.jpg) repeat-x;  
+	/* #005825 */
+}
+
+body.bsman {
+	background:none;
+}
+a:active{
+    color: #000000;
+    text-decoration:none;
+}
+a:link{
+    color: #000000;
+    text-decoration:none;
+}
+a:visited{
+    color: #000000;
+    text-decoration:none;
+}
+a:hover{
+    color: #cc6600; 
+    text-decoration:underline;
+	cursor:pointer;
+}
+
+
+table.spe{
+	border:1px solid #CCCCCC; 
+	table-layout:fixed;
+	color:#000000;
+}
+
+/*
+border-collapse:collapse;
+*/
+
+table.spe tr
+{
+	height:30px;
+	background:#EDEDED;
+}
+
+/* 
+{
+	height:30px;
+	background:#DFE7F2;
+}  */
+
+
+table.spe  tr.altrow,table.spe tr:nth-of-type(even)
+{
+	height:30px;
+	background:#DFE7F2;
+} 
+
+
+
+table.spe  tr:hover
+{
+    background:#8DEEEE;
+}
+
+
+
+table.spe th{
+	font-weight:bold;
+	font-size:16px;
+	height:36px;
+	background:#489567;
+	padding:3px;
+}
+
+table.spe td{
+	border:1px solid #CCCCCC;
+}
+ 
+
+H1{
+font-size:18px;
+color:#000000;
+font-family:SimHei,Arial, Helvetica, sans-serif;
+padding:5px 0px;
+margin:0px;
+}
+H2{
+padding:0px 0px 10px 0px;
+margin:16px 10px 5px 0px;
+color:#006600;
+line-height:28px;
+font-size:14px;
+font-weight:bold;
+}
+H2 a:active, H2 a:link, H2 a:visited, H2 a:hover{
+color:#006600;
+text-decoration:none;
+} 
+H3{
+margin:5px 15px 5px 15px;
+padding:0px 0px;
+color:#006600;
+font-size:14px;
+font-weight:bold;
+}
+H4{
+margin:20px 15px 10px 15px;
+color:#006600;
+padding:0px 0px;
+font-size:14px;
+font-weight:bold;
+}
+H5{
+padding:0px 0px 10px 0px;
+margin:0px 0px 0px 0px;
+color:#006600;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:bold;
+}
+H6{
+padding:0px;
+margin:10px 0px 10px 5px;
+font-size:18px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color:#006600;
+}
+HR{
+border-top:#CCCCCC 1px solid;
+border-bottom:0px;
+border-left:0px;
+border-right:0px;
+padding:0px;
+margin:2px 0px;
+_height:1px;
+_margin:-8px 0px;
+}
+
+P{
+	margin:0px;
+	padding:0px;
+	color:#000000;
+}
+
+LI{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	color:#000000;
+}
+
+ol,ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+/********************* ¹«¹²CSSÑ¡ÔñÆ÷***********************************/
+.InputTextLen
+{
+	width:130px;
+}
+
+/********************* head  ***********************************/
+.Logo{
+	width:998px;
+	height:108px;
+	bottom:0px;
+	position:absolute;
+	left:0px;
+	background:url(../public/images/logo.jpg) no-repeat top;
+}
+
+
+.Login{
+	width:260px; 
+	height:25px;
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	margin:0px; 
+	vertical-align:bottom; 
+}
+
+	
+#username,#fakepwd
+{
+	border:#CCCCCC 1px solid;
+	width:100px;
+	margin:0px 3px 0px 0px;
+	color:#CCCCCC;
+}
+
+
+#password
+{
+	border:#CCCCCC 1px solid;
+	width:100px;
+	margin:0px 3px 0px 0px;
+	color:#CCCCCC;
+}
+
+
+.LoginButton{
+	vertical-align: middle;
+	width:35px;
+	height:23px;
+	background:url(../public/images/loginbtn.png) no-repeat;
+	border:0;
+	margin:2px 0px 0px 0px;
+	cursor:pointer;
+	padding:0px;
+	right:0px;
+}
+
+.Logout{
+	width:255px; 
+	height:25px;
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	margin:0px; 
+	vertical-align:bottom; 
+}
+
+.Logout span
+{
+	font-size:14px;
+	font-weight:bold;
+	color: #005825;
+	float:left;
+	margin:6px 0px;
+}
+
+.LogoutButton{
+	display:block;
+	width:35px;
+	height:23px;
+	background:url(../public/images/logoutbtn.png) no-repeat;
+	margin:2px 2px;
+	border:0;
+	cursor:pointer;
+	padding:0px;
+	float:right;
+}
+
+.ManageButton{
+	width:35px;
+	height:23px;
+	background:url(../public/images/managebtn.png) no-repeat;
+	margin:2px 2px;
+	border:0;
+	cursor:pointer;
+	padding:0px;
+	float:right;
+}
+
+
+
+.Hidecontent {
+	display:none;
+}
+
+/****************************Article**************************************/
+.Article
+{
+	margin:30px auto;
+	width:850px;
+    background-color:transparent;
+    color:#000000;
+	display:block;
+ 
+}
+
+.ArteName
+{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.ArteInfo
+{
+	margin:0px auto;
+	font-size:14px;
+	color:#7F7F7F;
+}
+
+.ArteText
+{
+   line-height:150%;
+   display:block;
+}
+
+ .ArteText  a:active ,.ArteText a:link ,.ArteText  a:visited{
+    color:#0000FF;
+	 text-decoration:underline;
+}
+
+.ArteText a:hover{
+    color: #cc6600; 
+    text-decoration:underline;
+	cursor:pointer;
+} 
+
+/****************************ShowDivBorder**************************************/
+.DivBorderShow{
+	border:1px solid red;
+	background:#ffff00;
+}
+
+.DivBorderHid{
+	border:none;
+	background:none;
+}
+ 
+
+
+ 

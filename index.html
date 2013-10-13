@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+    </head>
+    <body>
+        <div class="Ptn">
+            <table width="100%" border="0" cellpadding="0" cellspacing="2" class="TableBorder">
+                <tr> 
+                    <td height="21">&nbsp;<img src="images/help.gif" width="32" height="32" hspace="2" vspace="2" align="absmiddle"><font size="+1"><strong>关于系统</strong></font></td>
+                </tr>
+                <tr> 
+                    <td height="10" colspan="2" bgcolor="#999"></td>
+                </tr>
+            </table>
+        </div> 
+        <div id="pPrint">
+            <table width="100%" border="0" cellspacing="2" cellpadding="3">
+                <tr> 
+                    <td colspan="2" class="TextTitle"><font color="#999999">系统信息</font>
+                    </td>
+                </tr>
+                <tr> 
+                    <td height="1" colspan="2" bgcolor="#CCCCCC"></td>
+                </tr>
+                <tr> 
+                    <td width="16%">系统名称：</td>
+                    <td width="84%"><strong>中山大学教学设备管理平台</strong></td>
+                </tr>
+                <tr> 
+                    <td>系统版本：</td>
+                    <td>V 2.0</td>
+                </tr>
+                <tr> 
+                    <td>系统开发：</td>
+                    <td>中山大学信息网络办公室</td>
+                </tr>
+                <tr> 
+                    <td height="1" colspan="2" bgcolor="#CCCCCC"></td>
+                </tr>
+                <tr> 
+                    <td height="20" colspan="2"></td>
+                </tr>
+                <tr> 
+                    <td colspan="2" class="TextTitle"><font color="#999999">联系方式</font></td>
+                </tr>
+                <tr> 
+                    <td height="1" colspan="2" bgcolor="#CCCCCC"></td>
+                </tr>
+                <tr> 
+                    <td>联系人：</td>
+                    <td>张梓滨</td>
+                </tr>  
+                <tr> 
+                    <td>联系电话：</td>
+                    <td>15902024360</td>
+                </tr>
+                <tr> 
+                    <td>QQ：</td>
+                    <td>469917226</td>
+                </tr>
+                <tr> 
+                    <td>Email：</td>
+                    <td>dou_gua@163.com</td>
+                </tr>
+                <tr> 
+                    <td height="1" colspan="2" bgcolor="#CCCCCC"></td>
+                </tr>
+                <tr> 
+                    <td>&nbsp;</td>
+                    <td align="right">Copyright  &copy; 2011-2013. All Rights Reserved. </td>
+                </tr>
+                <tr> 
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div> 
+        <div id="colee_right" style="overflow:hidden;width:100%;">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr><td id="colee_right1" valign="top" align="center">
+                        <table cellpadding="2" cellspacing="0" border="0">
+                            <tr align="center">
+                                <td><p><img src="images/computer.jpg" alt="电脑" style="height: 179px; width: 197px"></p></td>
+                                <td><p><img src="images/yingxiang.jpg" alt="音箱" 
+                                            style="height: 153px; width: 155px"></p></td>
+                                <td><p><img src="images/gongfang.jpg" alt="功放" 
+                                            style="height: 139px; width: 189px"></p></td>
+                                <td><p><img src="images/tiaoying.jpg" alt="调音台" style="height: 119px; width: 174px"></p></td>
+                                <td><p><img src="images/touyingji.jpg" alt="投影机" 
+                                            style="height: 123px; width: 185px"></p></td>
+                                <td><p><img src="images/youxian.jpg" alt="有线麦" style="height: 119px; width: 174px"></p></td>
+                                <td><p><img src="images/zhongkong.jpg" alt="中控" style="height: 119px; width: 174px"></p></td>
+
+
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="colee_right2" valign="top"></td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            var speed = 30//速度数值越大速度越慢
+            var colee_right2 = document.getElementById("colee_right2");
+            var colee_right1 = document.getElementById("colee_right1");
+            var colee_right = document.getElementById("colee_right");
+            colee_right2.innerHTML = colee_right1.innerHTML
+            function Marquee4() {
+                if (colee_right.scrollLeft <= 0)
+                    colee_right.scrollLeft += colee_right2.offsetWidth
+                else {
+                    colee_right.scrollLeft--
+                }
+            }
+            var MyMar4 = setInterval(Marquee4, speed)
+            colee_right.onmouseover = function() {
+                clearInterval(MyMar4)
+            }
+            colee_right.onmouseout = function() {
+                MyMar4 = setInterval(Marquee4, speed)
+            }
+        </script>
+    </body>
+</html>

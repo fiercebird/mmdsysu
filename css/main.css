@@ -1,0 +1,59 @@
+html {	
+    height:100%;
+}
+body{
+    font:12px Arial, Helvetica, sans-serif;
+    color: #000;
+    height:100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #EEF2FB;
+    margin: 0px;
+}
+/*站点地图+其他操作*/
+#tbl_nav{
+    padding: 2px 2px 5px 2px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 100%;
+}
+#tbl_nav .breadcrumbs{
+    height: 20px;
+    width: 300px;
+    float: left;
+}
+#tbl_nav .operation{
+    height: 20px;
+    float: right;
+}
+#tbl_nav .operation{
+    list-style: none;
+}
+#tbl_nav .operation li{
+    float: right;
+    margin-left: 20px;
+	list-style: none;
+}
+
+.grid-view{
+    padding-top: 0;
+}
+.grid-view td{
+    text-align: center;
+}
+#tbl_nav{
+    border-bottom: solid 2px #aaa;
+}
+#bool_display_tbl{
+    height: 26px;
+    margin-bottom: 0;
+}
+#bool_display_tbl tr td{
+    padding-right: 20px;
+}
+#bool_display_tbl tr td input{
+    margin:0;
+    vertical-align: bottom;
+}

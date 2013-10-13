@@ -1,0 +1,192 @@
+body{
+	font-family: Arial,sans-serif;
+	color: #005825;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	/* background-color:#49AAD7; */
+	/* #005825 */
+}
+a:active{
+    color: #000000;
+    text-decoration:none;
+}
+a:link{
+    color: #000000;
+    text-decoration:none;
+}
+a:visited{
+    color: #000000;
+    text-decoration:none;
+}
+a:hover{
+    color: #cc6600; 
+    text-decoration:underline;
+	cursor:pointer;
+}
+
+
+P{
+	margin:0px;
+	padding:0px;
+}
+
+LI{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+ol,ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+table.spe{
+	border:2px solid #CCCCCC; 
+	color:#000000;
+	border-collapse:collapse;
+}
+
+table.spe tr
+{
+	height:30px;
+	background:#EDEDED;
+}
+
+table.spe tr.altrow
+{
+	height:30px;
+	background:#DFE7F2;
+} 
+
+table.spe tr:hover
+{
+    background:#8DEEEE;
+}
+
+table.spe tr:hover.altrow
+{
+	background:#8DEEEE;
+} 
+
+
+
+table.spe th{
+	font-weight:bold;
+	font-size:16px;
+	height:36px;
+	border:1px solid #CCCCCC;
+	background:#489567;
+}
+
+table.spe td{
+	border:1px solid #CCCCCC;
+}
+ 
+
+
+/*
+border-width:0px 1px 1px 0px; 
+	border-width:1px 0px 0px 1px;
+	border-spacing: 0px; 
+	border-spacing: expression(this.cellSpacing=0);
+	margin:auto auto;
+*/
+
+/****************************categoryManage**************************************/
+
+.head1
+{
+	width:200px;
+	font-size:17px;
+	font-weight:bold;
+	margin-left:150px;
+}
+
+#articlelist
+{
+	margin:0px 0px 0px 200px;
+	text-align:center;
+}
+
+#articlelist td
+{
+	padding:0px 50px;
+}
+
+#divAddCaty
+{
+	margin-left:200px;
+	color:#000000;
+}
+
+#newCaty{}
+
+#addCaty{}
+
+/****************************articleAdd**************************************/
+
+.head2
+{
+	width:200px;
+	font-size:17px;
+	font-weight:bold;
+	margin:10px 0px 10px 50px;	
+}
+
+.formRow
+{
+	height:25px;
+}
+
+.articleAddForm
+{
+	color:#000000;
+	margin:0px 0px 0px 30px;
+	width:760px;
+}
+
+.addAriticleBtn
+{
+	float:right;
+	margin:0px 10px 20px 0px;
+}
+
+.ArteNameInput
+{
+	width:600px;
+}
+
+.PubInput
+{
+	width:200px;
+}
+
+.CateIdSel
+{
+	width:130px;
+}
+
+/****************************articleManage**************************************/
+
+#any{
+	width:50px;
+}
+
+#artManaList
+{
+	margin:0px 0px 0px 100px;
+}
+
+#artManaList td
+{
+	padding:0px 20px;
+}
+
+#page
+{
+	margin:10px 0px 0px 100px;
+	color:#000000;
+}

@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+#tbl_nav
+{
+   
+}
+#tbl_nav .breadcrumbs
+{
+    float: left;
+    padding-left: 10px;
+}
+#tbl_nav ul
+{
+    text-align:right;
+    margin:0px;
+}
+#tbl_nav ul li
+{
+    display: inline;
+}
+#tbl_nav ul li a
+{
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+#tbl_nav ul li a:hover, #tbl_nav ul li a.active
+{
+    color:black;
+    background-color:#ccc;
+    text-decoration:none;
+}

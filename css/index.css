@@ -1,0 +1,107 @@
+﻿Html {
+    BackGround:white; Height: 100%
+}
+Body {
+    Border-Top-Width: 0px; 
+    Padding-Right: 0px; 
+    Padding-Left: 0px; 
+    Border-Left-Width: 0px;
+    Border-Bottom-Width: 0px; 
+    Padding-Bottom: 0px; 
+    Margin: 0px;
+    overflow:scroll;
+    Color: buttontext;
+    Padding-TOP: 0px; 
+    Height: 100%; 
+    Border-Right-Width: 0px;
+    Line-Height: 18px;
+    Font-Family: "Arial", "宋体";
+}
+Table{  
+    Word-Break:break-all;
+    Border-Collapse: collapse;
+    height: 18px;
+}
+Td {  
+    Font-Size: 12px;
+}
+A {  
+    Color: #0066CC; 
+    Text-Decoration: none;
+}
+
+A:Hover {  
+    Color: #0000FF; 
+    Text-Decoration: none;
+}
+.Hidden
+{
+    Display: none;
+}
+.CalText {
+    Font-Size: 12px;
+    Background-Color:highlight;
+    Color:highlighttext;
+    Width:18px;
+}
+.TextTitle { 
+    Font-Size: 16px;
+}
+
+.TextSmall 
+{ 
+    Font-Size: 10px;
+    Color: #999999;
+}
+.CoolButton {
+    Behavior: url('Inc/CoolButton.htc'); 
+    Cursor: default; 
+    Font-Size: 11px;	
+}
+
+.TableMenu {
+    Border-Right: 2px groove; 
+    Border-Top: 2px groove; 
+    Border-Left: 2px groove; 
+    Border-Bottom: 2px groove;
+}
+.HollowField {
+    Border-Left: 1px solid buttonshadow;
+    Border-Right: 1px solid buttonhighlight;
+    Border-Top: 1px solid buttonshadow;
+    Border-Bottom: 1px solid buttonhighlight;
+    Padding-Top: 0px;
+    Padding-Left: 0px;
+    Padding-Bottom: 0px;
+    Padding-Right: 0px;
+}
+
+.Button {  
+    Height: 20px; 
+    Border-Bottom: buttonshadow 1px solid; 
+    Border-Left: buttonhighlight 1px solid; 
+    Border-Right: buttonshadow 1px solid; 
+    Border-Top: buttonhighlight 1px solid; 
+    Color: #333333;
+    Padding-Bottom: 1px; 
+    Padding-Left: 2px; 
+    Padding-Right: 2px; 
+    Padding-Top: 2px
+}
+.TableLine {  
+    Border-Color: black black #F2F2F2; 
+    Border-Top-Width: 0px; 
+    Border-Right-Width: 0px; 
+    Border-Bottom-Width: 1px; 
+    Border-Left-Width: 0px
+}
+.TableNoneLine {  
+    Border: black; 
+    Border-Top-Width: 0px; 
+    Border-Right-Width: 0px; 
+    Border-Bottom-Width: 0px; 
+    Border-Left-Width: 0px
+}
+.submit {
+    BORDER-RIGHT: #215396 1px solid; BORDER-TOP: #e3ecfa 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #e3ecfa 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #215396 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #5f94dc
+}

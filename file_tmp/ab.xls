@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8880</WindowHeight>
+  <WindowWidth>21360</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>140</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="投影机灯泡">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">校区</Data></Cell>
+    <Cell><Data ss:Type="String">教学楼</Data></Cell>
+    <Cell><Data ss:Type="String">课室</Data></Cell>
+    <Cell><Data ss:Type="String">更换时间</Data></Cell>
+    <Cell><Data ss:Type="String">投影机类型</Data></Cell>
+    <Cell><Data ss:Type="String">型号</Data></Cell>
+    <Cell><Data ss:Type="String">价格</Data></Cell>
+    <Cell><Data ss:Type="String">流明</Data></Cell>
+    <Cell><Data ss:Type="String">是否在用</Data></Cell>
+    <Cell><Data ss:Type="String">开机照度</Data></Cell>
+    <Cell><Data ss:Type="String">未开机照度</Data></Cell>
+    <Cell><Data ss:Type="String">照度</Data></Cell>
+    <Cell><Data ss:Type="String">使用时间</Data></Cell>
+    <Cell><Data ss:Type="String">供应商</Data></Cell>
+    <Cell><Data ss:Type="String">保修情况</Data></Cell>
+    <Cell><Data ss:Type="String">ID（批量覆盖用，请勿修改）</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">北校区</Data></Cell>
+    <Cell><Data ss:Type="String">北校区</Data></Cell>
+    <Cell><Data ss:Type="String">101</Data></Cell>
+    <Cell><Data ss:Type="String">2012年11月</Data></Cell>
+    <Cell><Data ss:Type="String">液晶</Data></Cell>
+    <Cell><Data ss:Type="String">EB-C450XB</Data></Cell>
+    <Cell><Data ss:Type="String">2780</Data></Cell>
+    <Cell><Data ss:Type="String">4500</Data></Cell>
+    <Cell><Data ss:Type="String">在用</Data></Cell>
+    <Cell><Data ss:Type="String">278</Data></Cell>
+    <Cell><Data ss:Type="String">26</Data></Cell>
+    <Cell><Data ss:Type="String">252</Data></Cell>
+    <Cell><Data ss:Type="String">737</Data></Cell>
+    <Cell><Data ss:Type="String">胜利电子</Data></Cell>
+    <Cell><Data ss:Type="String">2012年月11月26日更换灯泡</Data></Cell>
+    <Cell><Data ss:Type="String">1379</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
