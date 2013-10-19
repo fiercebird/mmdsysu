@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	$result = $misdb_i->DbQuery('select * from category order by CatyId');
 	
 	echo '<table id="articlelist" class="spe"><tr><th>类别名称</th><th>编辑</th><th>删除</th></tr>';
-	for($i=1;$i<=5;$i++)
+	for($i=1;$i<=6;$i++)   //硬编码
 	{
 		$row = $misdb_i->DbResult($result);
 		echo '<tr class="altrow" name=' . $row['CatyId'] . '><td>' . $row['CatyName'] . '</td><td><a>编辑</a></td><td>禁止</td></tr>';

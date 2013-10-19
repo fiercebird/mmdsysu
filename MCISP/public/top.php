@@ -6,19 +6,19 @@
 <script type="text/javascript" language="javascript" charset="utf-8">
 	function switchTag(tag,subnav)
 	{
-		for(i=1; i <=8; i++)
+		for(i=1; i <=9; i++)
 		{
 			if ("Tag"+i==tag)
 			{
-				document.getElementById("Tag"+i).className="NavSel";
+				document.getElementById("Tag"+i).className="NavSel";   //鼠标放上去的一级栏目
 				
 			}else{
-				document.getElementById("Tag"+i).className="NavShow";
+				document.getElementById("Tag"+i).className="NavShow";  //鼠标没放上去的一级栏目
 				
 			}
 			if ("SubNav"+i==subnav)
 			{
-				document.getElementById(subnav).className="";
+				document.getElementById(subnav).className=""; //鼠标放上去的一级栏目，则二级栏目显示出来
 			}else{
 				document.getElementById("SubNav"+i).className="Hidecontent";
 			}
@@ -138,12 +138,28 @@
 <div id="Nav">
 	<a href="<?php echo $HP ?>"><span class="NavShow" id="Tag1" onMouseOver="switchTag('Tag1','SubNav1');this.blur();">&nbsp;首页</span></a>
 	<a href="<?php echo $CrIntroHP ?>"><span class="NavShow" id="Tag2" onMouseOver="switchTag('Tag2','SubNav2');this.blur();">&nbsp;课室介绍</span></a>
+	<!--
 	<a href="<?php echo $ServiceHP.'?TypeId=1' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;服务资讯</span></a>
+	-->
+	<a href="<?php echo $ServiceHP.'?TypeId=1' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;特色课室</span></a>
+	<!--
 	<a href="<?php echo  $InfoNoticeHP. '?CateId=1&CatyName=信息公告' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;信息公告</span></a>
+	-->
+	<a href="<?php echo  $InfoNoticeHP. '?CateId=1&CatyName=信息公告' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;服务报表</span></a>
 	<a href="<?php echo  $RegulationHP ?>"><span class="NavShow" id="Tag5" onMouseOver="switchTag('Tag5','SubNav5');this.blur();">&nbsp;规章制度</span></a>
+	<!--
 	<a href="<?php echo  $MmIntroHP  ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;多媒体风采</span></a>
+	-->
+	<a href="<?php echo  $MmIntroHP  ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;技术探索</span></a>
+	<!--
 	<a href="<?php echo  $LostHP ?>"><span class="NavShow" id="Tag7" onMouseOver="switchTag('Tag7','SubNav7');this.blur();">&nbsp;失物招领</span></a>
+	-->
+	<a href="<?php echo  $LostHP ?>"><span class="NavShow" id="Tag7" onMouseOver="switchTag('Tag7','SubNav7');this.blur();">&nbsp;多媒体风采</span></a>
+	<!--
 	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag8" onMouseOver="switchTag('Tag8','SubNav8');this.blur();">&nbsp;特色系统</span></a>
+	-->
+	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag8" onMouseOver="switchTag('Tag8','SubNav8');this.blur();">&nbsp;意见收集</span></a>
+	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag9" onMouseOver="switchTag('Tag9','SubNav9');this.blur();">&nbsp;内部管理</span></a>
 </div>
 <!-- nav end -->
 <!-- SubNav begin -->
@@ -156,15 +172,19 @@
 		<a href="<?php echo $CrIntroHP. '?CampusId=30' ?>">北校区</a>
 	</div> 		
 	<div id="SubNav3" class="Hidecontent">
+	    <!--
 		<a href="<?php echo $ServiceHP .'?TypeId=1'?>">校区地图</a>　|　
 		<a href="<?php echo $ServiceHP .'?TypeId=2'?>">校车查询</a>　|　
 		<a href="<?php echo $ServiceHP .'?TypeId=3'?>">课室借用</a>
+		-->
 	</div> 	
 	<div id="SubNav4" class="Hidecontent">
+	    <!--
 		<a href="<?php echo $InfoNoticeHP . '?CateId=1&CatyName=信息公告' ?>">信息公告</a>　|　
 		<a href="<?php echo $InfoNoticeHP . '?CateId=2&CatyName=服务指南' ?>">服务指南</a>　|　
 		<a href="<?php echo $InfoNoticeHP . '?CateId=3&CatyName=部分风采' ?>">部分风采</a>　|　
 		<a href="<?php echo $InfoNoticeHP . '?CateId=4&CatyName=规章制度' ?>">规章制度</a>
+		-->
 	</div> 	
 	<div id="SubNav5" class="Hidecontent">
 	</div> 	
@@ -177,14 +197,20 @@
 	</div> 	
 	-->
 	<div id="SubNav7" class="Hidecontent">   
+		<!--
 		<a href="<?php echo $LostHP. '?CampusId=10' ?>">东校区</a>　|　
 		<a href="<?php echo $LostHP. '?CampusId=20' ?>">南校区</a>　|　
 		<a href="<?php echo $LostHP. '?CampusId=40' ?>">珠海校区</a>　|　
 		<a href="<?php echo $LostHP. '?CampusId=30' ?>">北校区</a>
+		-->
 	</div> 		
 	<div id="SubNav8" class="Hidecontent">
+	    <!--
 		<a href="<?php echo $FeatureHP. '?CateId=1' ?>">卓越全自动录播技术</a>　|　
 		<a href="<?php echo $FeatureHP. '?CateId=2' ?>">普罗米休斯互动教学方案</a>	
+		-->
 	</div> 
+	<div id="SubNav9" class="Hidecontent">
+	</div> 	
 </div>
 <!-- SubNav end -->

@@ -62,7 +62,11 @@ $misdb_i->DbClose();
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>中山大学多媒体信息服务平台</title>
 	<script language=javascript src="../../js/jquery-1.8.3.min.js"></script>
+	<!--
 	<script language=javascript src='ckeditor/ckeditor.js'></script>
+	-->
+	<script language=javascript src='kindeditor/kindeditor.js'></script>
+	<script language=javascript src='kindeditor/lang/zh_CN.js'></script>
 	<link href="../../css/iframelayout.css" rel="stylesheet" type="text/css" />
 </head>
 <!--
@@ -90,9 +94,19 @@ $misdb_i->DbClose();
 		发布方：<input class='PubInput' type='text'  name='Publisher'/>
 	</div>
 	文章内容：
+	<!--
 	<textarea id='ckeditor' name='Content' style="height:700px;width:750px;" ></textarea>
+	-->
+	<textarea id='kindeditor' name='Content' style="height:700px;width:750px;" ></textarea>
 	<script type="text/javascript">
-		CKEDITOR.replace('ckeditor');
+		 //CKEDITOR.replace('ckeditor');
+		 var editor;
+		 KindEditor.ready(function(K){
+		      editor = K.create(
+			      'textarea[name="Content"]',{}
+			  )
+		    }
+		 );
 	</script>
 	<input type='hidden' value=<?php echo $_SESSION['userid']; ?> name='PubId'/>
 	<input class='addAriticleBtn' type='submit' value='发布文章' />
