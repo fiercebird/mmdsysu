@@ -10,7 +10,7 @@ include_once $dbConnDir;
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>多多媒体信息服务平台</title>
+	<title>多媒体信息服务平台</title>
 	<link href="../../css/layout.css" rel="stylesheet" type="text/css" />
 	<link href="../../css/screen.css" rel="stylesheet" type="text/css" />
 	<link href="../../css/pic_slide.css" rel="stylesheet" type="text/css" />

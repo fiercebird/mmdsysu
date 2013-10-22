@@ -136,7 +136,7 @@
 <div id="Nav">
 	<a href="<?php echo $HP ?>"><span class="NavShow" id="Tag1" onMouseOver="switchTag('Tag1','SubNav1');this.blur();">&nbsp;首页</span></a>
 	<a href="<?php echo $CrIntroHP ?>"><span class="NavShow" id="Tag2" onMouseOver="switchTag('Tag2','SubNav2');this.blur();">&nbsp;课室介绍</span></a>
-	<a href="<?php echo $InfoNotice.'?CateId=1&CatyName=特色课室' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;特色课室</span></a>
+	<a href="<?php echo $InfoNoticeHP. '?CateId=1&CatyName=特色课室' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;特色课室</span></a>
 	<a href="<?php echo  $InfoNoticeHP. '?CateId=5&CatyName=服务报表' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;服务报表</span></a>
 	<a href="<?php echo  $InfoNoticeHP. '?CateId=4&CatyName=规章制度' ?>"><span class="NavShow" id="Tag5" onMouseOver="switchTag('Tag5','SubNav5');this.blur();">&nbsp;规章制度</span></a>
 	<a href="<?php echo  $InfoNoticeHP. '?CateId=6&CatyName=规章制度' ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;技术探索</span></a>
