@@ -46,7 +46,7 @@
 		<div style="height:50px;"><a style="width:50px;float:right;" href="<?php echo $InfoNoticeHP. '?CateId=1&CatyName=信息公告' ?>">更多...</a></div>
 		<?php 
 			$result = $misdb_i->DbQuery('select ArteId,ArteName,CateId,Campus,PubTime from Article order by PubTime desc limit 0,' . NewNums );
-			while ($row = $misdb_i->DbResult($result))
+            while ($row = $misdb_i->DbResult($result))
 			{
 				echo 
 				'<div class="Item">
@@ -109,13 +109,15 @@
 		<!-- contact begin 	-->
 		<div id="Contact">
                     <div id="colee">
-                        <div id="colee1">
-                            <p style="display:inline-block; width:80%;"><?php echo str_replace("\n", "<br />", str_replace(" ", "&nbsp;", $ConArr)); ?>  </p>     							
+                        <div id="colee1" style="margin-top: 20px;">
+                            <p style="line-height: 150%;"><?php echo str_replace("\n", "<br />", str_replace(" ", "&nbsp;", $ConArr)); ?>  </p>     							
                         </div>
+                        <!--
 						<div id="colee2">
 						     
 						</div>
                          <script type="text/javascript" language="javascript">setMarquee();</script>
+                         -->
                     </div>
                     <!--四校区联系方式的结束 -->
 		</div>

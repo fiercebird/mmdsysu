@@ -67,18 +67,16 @@ return array(
 		),*/
 		
                  //这里是梓滨的数据库配置
-                 /*
                  'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=mis',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '123',
-			'charset' => 'utf8',
-		),
-               */
+        			'connectionString' => 'mysql:host=localhost;dbname=mis',
+        			'emulatePrepare' => true,
+        			'username' => 'root',
+        			'password' => 'dou',
+        			'charset' => 'utf8',
+        		),
                  
                 //这里是文欢的数据库配置
-				
+				/*
                  'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=mis',
 			'emulatePrepare' => true,
@@ -86,6 +84,7 @@ return array(
 			'password' => 'newpassword',
 			'charset' => 'utf8',
 		),
+        */
                 
                 //测试服务器数据库配置
                 /*

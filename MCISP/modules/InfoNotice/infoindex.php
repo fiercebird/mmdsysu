@@ -86,11 +86,13 @@ include_once $dbConnDir;
 </div>
 
 <div id="infoIndexRight">
+<!--
 <h6>搜索文章</h6>
 <form action="" onsubmit="return KeywordCheck()" >
 <input type="input" id="Keyword" name="Keyword" style="margin:0px 0px 0px 20px;" />
 <input type="submit"  style="width:60px;" value="搜索"/>
 </form>
+-->
 <?php 
 
 	if(isset($_GET['CateId']) ){
