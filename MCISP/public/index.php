@@ -88,7 +88,7 @@
 		<!-- Notice end -->
 		<!-- services begin -->
 		<div id="Services">
-		<div style="height:50px;"><a style="width:50px;float:right;" href="<?php echo $InfoNoticeHP. '?CateId=2&CatyName=服务信息' ?>">更多...</a></div>
+		<div style="height:50px;"><a style="width:50px;float:right;" href="<?php echo $InfoNoticeHP. '?CateId=2&CatyName=服务资讯' ?>">更多...</a></div>
 			<?php 
 				$result = $misdb_i->DbQuery('select ArteId,ArteName,CateId,Campus,PubTime from Article where CateId="2" order by PubTime desc limit 0,' . ServiceNums );
 				while ($row = $misdb_i->DbResult($result))
