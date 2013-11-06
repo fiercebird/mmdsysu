@@ -144,6 +144,7 @@ $RegulationHP= '/modules/Regulations/ruleindex.php';
 $MmIntroHP= '/modules/MMIntroduce/mmintroindex.php';
 $CrIntroHP= '/modules/CRIntroduce/crintroindex.php';
 $LostHP= '/modules/LostThings/lostfoundindex.php';
+$SuggestionHP= '/modules/Suggestion/suggestionindex.php';
 //常用函数，index为从低位往高位数，从0开始数
 	function IsOne($num,$index) //检测第index位是否为1
 	{

@@ -11,10 +11,8 @@
 			if ("Tag"+i==tag)
 			{
 				document.getElementById("Tag"+i).className="NavSel";   //鼠标放上去的一级栏目
-				
 			}else{
 				document.getElementById("Tag"+i).className="NavShow";  //鼠标没放上去的一级栏目
-				
 			}
 			if ("SubNav"+i==subnav)
 			{
@@ -138,28 +136,13 @@
 <div id="Nav">
 	<a href="<?php echo $HP ?>"><span class="NavShow" id="Tag1" onMouseOver="switchTag('Tag1','SubNav1');this.blur();">&nbsp;首页</span></a>
 	<a href="<?php echo $CrIntroHP ?>"><span class="NavShow" id="Tag2" onMouseOver="switchTag('Tag2','SubNav2');this.blur();">&nbsp;课室介绍</span></a>
-	<!--
-	<a href="<?php echo $ServiceHP.'?TypeId=1' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;服务资讯</span></a>
-	-->
-	<a href="<?php echo $ServiceHP.'?TypeId=1' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;特色课室</span></a>
-	<!--
-	<a href="<?php echo  $InfoNoticeHP. '?CateId=1&CatyName=信息公告' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;信息公告</span></a>
-	-->
-	<a href="<?php echo  $InfoNoticeHP. '?CateId=1&CatyName=信息公告' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;服务报表</span></a>
-	<a href="<?php echo  $RegulationHP ?>"><span class="NavShow" id="Tag5" onMouseOver="switchTag('Tag5','SubNav5');this.blur();">&nbsp;规章制度</span></a>
-	<!--
-	<a href="<?php echo  $MmIntroHP  ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;多媒体风采</span></a>
-	-->
-	<a href="<?php echo  $MmIntroHP  ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;技术探索</span></a>
-	<!--
-	<a href="<?php echo  $LostHP ?>"><span class="NavShow" id="Tag7" onMouseOver="switchTag('Tag7','SubNav7');this.blur();">&nbsp;失物招领</span></a>
-	-->
-	<a href="<?php echo  $LostHP ?>"><span class="NavShow" id="Tag7" onMouseOver="switchTag('Tag7','SubNav7');this.blur();">&nbsp;多媒体风采</span></a>
-	<!--
-	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag8" onMouseOver="switchTag('Tag8','SubNav8');this.blur();">&nbsp;特色系统</span></a>
-	-->
-	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag8" onMouseOver="switchTag('Tag8','SubNav8');this.blur();">&nbsp;意见收集</span></a>
-	<a href="<?php echo $FeatureHP. '?CateId=1' ?>"><span class="NavShow" id="Tag9" onMouseOver="switchTag('Tag9','SubNav9');this.blur();">&nbsp;内部管理</span></a>
+	<a href="<?php echo $InfoNoticeHP. '?CateId=1&CatyName=特色课室' ?>"><span class="NavShow" id="Tag3" onMouseOver="switchTag('Tag3','SubNav3');this.blur();">&nbsp;特色课室</span></a>
+	<a href="<?php echo  $InfoNoticeHP. '?CateId=5&CatyName=服务报表' ?>"><span class="NavShow" id="Tag4" onMouseOver="switchTag('Tag4','SubNav4');this.blur();">&nbsp;服务报表</span></a>
+	<a href="<?php echo  $InfoNoticeHP. '?CateId=4&CatyName=规章制度' ?>"><span class="NavShow" id="Tag5" onMouseOver="switchTag('Tag5','SubNav5');this.blur();">&nbsp;规章制度</span></a>
+	<a href="<?php echo  $InfoNoticeHP. '?CateId=6&CatyName=技术探索' ?>"><span class="NavShow" id="Tag6" onMouseOver="switchTag('Tag6','SubNav6');this.blur();">&nbsp;技术探索</span></a>
+	<a href="<?php echo  $MmIntroHP ?>"><span class="NavShow" id="Tag7" onMouseOver="switchTag('Tag7','SubNav7');this.blur();">&nbsp;多媒体风采</span></a>
+	<a href="<?php echo $SuggestionHP ?>"><span class="NavShow" id="Tag8" onMouseOver="switchTag('Tag8','SubNav8');this.blur();">&nbsp;意见收集</span></a>
+	<a href="http://mmd.sysu.edu.cn" target="_blank"><span class="NavShow" id="Tag9" onMouseOver="switchTag('Tag9','SubNav9');this.blur();">&nbsp;内部管理</span></a>
 </div>
 <!-- nav end -->
 <!-- SubNav begin -->
@@ -188,14 +171,8 @@
 	</div> 	
 	<div id="SubNav5" class="Hidecontent">
 	</div> 	
-	<!--
 	<div id="SubNav6" class="Hidecontent">
-		<a href="#">东校区</a> 　|　
-		<a href="#">南校区</a>　|　
-		<a href="#">珠海校区</a>　|　
-		<a href="#">北校区</a>
 	</div> 	
-	-->
 	<div id="SubNav7" class="Hidecontent">   
 		<!--
 		<a href="<?php echo $LostHP. '?CampusId=10' ?>">东校区</a>　|　

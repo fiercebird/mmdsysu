@@ -10,7 +10,7 @@ include_once $dbConnDir;
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>信息公告-多媒体信息服务平台</title>
+	<title>多媒体信息服务平台</title>
 	<link href="../../css/layout.css" rel="stylesheet" type="text/css" />
 	<link href="../../css/screen.css" rel="stylesheet" type="text/css" />
 	<script language=javascript src="../../js/jquery-1.8.3.min.js"></script>
@@ -70,32 +70,20 @@ include_once $dbConnDir;
 
 
 <div id="infoIndexMain">
-<div id="infoIndexLeft"> 
-<h6 style="margin:10px 0px 10px 30px;">信息类别</h6>
-<?php 
-	$sql='select * from Category where CatyId>0';
-	
-	$res=$misdb_i->DbQuery($sql);
-	echo '<ul id="InfoLeftMenu">';
-	while($row=$misdb_i->DbResult($res))
-	{
-		echo '<li><center><a  href="./infoindex.php?CateId='. $row['CatyId'] .'&CatyName='. urlencode($row['CatyName']) .'">'. $row['CatyName'] .'</a></center></li>';
-	}
-	echo '</ul>';
-?>
-</div>
 
 <div id="infoIndexRight">
+<!--
 <h6>搜索文章</h6>
 <form action="" onsubmit="return KeywordCheck()" >
 <input type="input" id="Keyword" name="Keyword" style="margin:0px 0px 0px 20px;" />
 <input type="submit"  style="width:60px;" value="搜索"/>
 </form>
+-->
 <?php 
-
+    
 	if(isset($_GET['CateId']) ){
 		$CateId=$_GET['CateId'];
-		echo '<h6>'. urldecode($_GET['CatyName']) .'</h6>'; 
+		echo '<p class="bread"><a href="http://mmc.sysu.edu.cn/">首页</a>> '. urldecode($_GET['CatyName']) .'</p>'; 
 		$sql='select ArteId,ArteName,Campus,Publisher,PubTime from Article where CateId='.$CateId;
 		
 	}else {
@@ -143,7 +131,7 @@ include_once $dbConnDir;
 ?>
 
 
-<table class='spe' id='artInfoList'><tr><th  width=80>校区</th><th width=350>标题</th><th width=150>发布方</th><th width=165>发布时间</th></tr></table>
+<table class='spe' id='artInfoList'></table>
 	<div id='page'>
 		<span>共有<?php echo $RowNum ?>篇文章</span>&nbsp;&nbsp;&nbsp;
 		<span>每页显示<?php echo InfoPageSizes ?>篇</span>&nbsp;&nbsp;&nbsp;
@@ -168,15 +156,10 @@ include_once $dbConnDir;
 	$i = 0;
 	while ($row = $misdb_i->DbResult($res))
 	{
-		if($i%2)
-			echo 'rows[' . $i . '] = "<tr name=' . $row['ArteId'] . '><td>'.$GetCampus[$row['Campus']]
-			.'</td><td><a href=\'../../public/infoContent.php?ArteId='. $row['ArteId'] .'\'>' . $row['ArteName'] 
-				. '</a></td><td >' . $row['Publisher'] . '</td><td >' . $row['PubTime'] . '</td></tr>";' . "\n";
-		else  
-			echo 'rows[' . $i . '] = "<tr class=altrow  name=' . $row['ArteId'] . '><td>'.$GetCampus[$row['Campus']]
-			.'</td><td><a href=\'../../public/infoContent.php?ArteId='. $row['ArteId'] .'\'>' . $row['ArteName'] 
-				. '</a></td><td >' . $row['Publisher'] . '</td><td >' . $row['PubTime'] . '</td></tr>";' . "\n";
-		$i++;
+			echo 'rows[' . $i . '] = "<tr name=' . $row['ArteId'] . '><td>【'.$GetCampus[$row['Campus']]
+			.'】</td><td><a href=\'../../public/infoContent.php?ArteId='. $row['ArteId'] .'\'>' . $row['ArteName'] 
+				. '</a></td><td class=PubTime>' . $row['PubTime'] . '</td></tr>";' . "\n";
+        $i++;
 	}
 ?>
 
@@ -245,7 +228,7 @@ include_once $dbConnDir;
 				curPage = $(this).attr('id').substring(1);
 				loadPage(curPage);
 			});
-		$('#artInfoList').children().html('<tr><th  width=80>校区</th><th width=350>标题</th><th width=150>发布方</th><th width=165>发布时间</th></tr>');
+		$('#artInfoList').children().html('');
 		for(var i=(p-1)*PageSizes; i<p*PageSizes; i++)
 			$('#artInfoList').append(rows[i]);
 		document.getElementById('any').value=p;
@@ -254,7 +237,7 @@ include_once $dbConnDir;
 
 	document.getElementById('Tag4').onMouseOver=switchTag('Tag4','SubNav4');
 </script>
-
+<div style="clear: both;"></div>
 <?php
 	require_once($bottomDir); 
 	$misdb_i->DbFree($res);
